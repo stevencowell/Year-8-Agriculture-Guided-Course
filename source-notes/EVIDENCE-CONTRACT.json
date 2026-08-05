@@ -1,0 +1,122 @@
+{
+  "contractVersion": "1.0",
+  "task": "TASK 11D",
+  "status": "reviewable integration input only",
+  "course": {
+    "workingTitle": "Year 8 Technology - Food and agricultural practices",
+    "schoolCourseTitle": "Teacher to confirm",
+    "year": 8,
+    "stage": 4
+  },
+  "authorityOrder": [
+    "Authorised Drive folder and its Year 8/2026 lesson sets",
+    "Technology 7-8 Syllabus (2023)",
+    "Current teacher-issued brief, plan, local procedures and risk controls",
+    "Legacy Stage 4 workbook and 2014 poultry booklet as supplementary/reference only; no current 2026 lesson dependence confirmed"
+  ],
+  "sources": {
+    "driveFolder": "https://drive.google.com/drive/folders/1jCfJPg6pE-r3lrmhyKSHBZGUzHz95fbP",
+    "currentLessonFolder": "https://drive.google.com/drive/folders/1Xs_4kwIpp1b-tNongrs2STuOo_GNnMkm",
+    "syllabusOutcomes": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes",
+    "syllabusCourseRequirements": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/overview/course",
+    "teacherOnlyAnswerFilesMustRemainPrivate": true
+  },
+  "outcomes": {
+    "TE4-SDP-01": "explains relationships between sustainability, design and production",
+    "TE4-PDP-01": "describes the practices and processes of designers and producers",
+    "TE4-PPM-01": "applies processes in the planning, management and production of projects",
+    "TE4-DES-01": "communicates and evaluates design ideas and solutions",
+    "TE4-SAF-01": "selects and safely uses tools, materials, technologies and processes"
+  },
+  "moduleContract": {
+    "moduleCount": 11,
+    "mapping": "one-to-one with Drive modules 1-11",
+    "container": "teacher-adjustable two-week integration container anchored by the supplied 50-65 minute lesson",
+    "formalProgrammeDurationClaim": "forbidden",
+    "namedTheorySectionsPerModule": 3,
+    "mcqsPerSection": 10,
+    "totalNamedTheorySections": 33,
+    "totalMcqs": 330
+  },
+  "formalMetadata": {
+    "taskNumber": "Teacher to confirm",
+    "taskName": "Teacher to confirm",
+    "formalStatus": "Teacher to confirm",
+    "issueDate": "Teacher to confirm",
+    "dueDate": "Teacher to confirm",
+    "termWeek": "Teacher to confirm",
+    "weighting": "Teacher to confirm",
+    "marks": "Teacher to confirm",
+    "assessedOutcomeSubset": "Teacher to confirm",
+    "teacher": "Teacher to confirm",
+    "submissionDestination": "Teacher to confirm",
+    "collaborationAuthenticityRules": "Teacher to confirm",
+    "lateAbsenceMisadventureProcess": "Teacher to confirm",
+    "approvedVersion": "Teacher to confirm"
+  },
+  "stages": [
+    {"id": 1, "title": "Introduction to Agriculture", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 1},
+    {"id": 2, "title": "The Value of Agriculture and Food Security", "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-DES-01"], "folioCard": 2},
+    {"id": 3, "title": "Introduction to Beef Cattle and Breeds", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 3},
+    {"id": 4, "title": "Beef Cattle Farming and Nutrition", "outcomes": ["TE4-PPM-01", "TE4-DES-01", "TE4-SDP-01", "TE4-PDP-01"], "folioCard": 4},
+    {"id": 5, "title": "Dairy Breeds and Milk Production", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 5},
+    {"id": 6, "title": "Dairy Processing and Nutrition", "outcomes": ["TE4-PDP-01", "TE4-DES-01"], "folioCard": 6},
+    {"id": 7, "title": "Horticulture and Growing Regions", "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-DES-01"], "folioCard": 7},
+    {"id": 8, "title": "Paddock to Plate - Technology, Nutrition and Choice", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 8},
+    {"id": 9, "title": "Australian Pork Industry and Breeds", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 9},
+    {"id": 10, "title": "Pig Farming Systems and Feeding", "outcomes": ["TE4-SDP-01", "TE4-PDP-01", "TE4-DES-01"], "folioCard": 10},
+    {"id": 11, "title": "Australian Poultry Industry - Farm to Plate", "outcomes": ["TE4-PDP-01", "TE4-SDP-01", "TE4-DES-01"], "folioCard": 11}
+  ],
+  "folio": {
+    "exactCardCount": 12,
+    "cards1To11MirrorStages": true,
+    "card12": {
+      "title": "Agriculture plot plan, practical evidence and final evaluation",
+      "outcomes": ["TE4-PPM-01", "TE4-DES-01"],
+      "conditionalOutcome": "TE4-SAF-01 only where separately evidenced through teacher-confirmed practical work",
+      "planReadingStatus": "Teacher to confirm/provide current plan and task requirement",
+      "mustNotInfer": ["scale", "dimensions", "quantities", "layout", "animal capacity", "safety zones", "practical procedures"]
+    }
+  },
+  "quizRules": {
+    "studentLearningOnly": true,
+    "forbiddenQuestionContent": [
+      "outcome codes",
+      "programme labels",
+      "teacher or administrative information",
+      "assessment metadata",
+      "file IDs or names",
+      "folder labels",
+      "route names"
+    ],
+    "hint1": "Direct the student to the precise relevant theory section",
+    "answerLeakage": "forbidden"
+  },
+  "autosave": {
+    "deviceLocalNoticeRequired": true,
+    "textData": "versioned browser-local record",
+    "images": "IndexedDB blobs with captions and thumbnails",
+    "reloadRestoreRequired": true,
+    "backupRestore": "JSON for data; complete image-inclusive export where implemented",
+    "resetRequiresConfirmation": true
+  },
+  "pdf": {
+    "printSavePdfRequired": true,
+    "include": ["student name", "class", "twelve cards", "responses", "tables", "captions", "authorised images", "missing evidence notices", "completion summary"],
+    "exclude": ["teacher answer files", "hidden model answers", "navigation controls", "unconfirmed formal metadata"]
+  },
+  "releaseGates": [
+    "Teacher confirms formal task metadata and assessed outcome subset",
+    "Teacher supplies/confirms current plan or plan-reading remains visibly gated",
+    "Teacher confirms local practical, animal-care and safety procedures",
+    "Teacher confirms image/privacy and submission rules",
+    "Current verification supports published statistics, nutrition claims, industry figures, locations and animal-welfare claims",
+    "Integration passes autosave/reload, image restore, PDF, keyboard and 390 px QA"
+  ],
+  "boundary": {
+    "repositoryEdited": false,
+    "githubChanged": false,
+    "published": false,
+    "handoffTarget": "TASK 11 integration"
+  }
+}
