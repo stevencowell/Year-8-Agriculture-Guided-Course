@@ -3125,6 +3125,21 @@ window.COURSE_DATA = {
             "assistantTurnId": "conversation-turn-14",
             "capturedBy": "TASK 11 integration"
           },
+          "videos": [
+            {
+              "sectionId": "6.1",
+              "title": "Discover how milk is made",
+              "channel": "Discover Aussie Dairy",
+              "videoId": "02MubUjvEPM",
+              "url": "https://www.youtube.com/watch?v=02MubUjvEPM",
+              "watchFor": "List the stages from farm collection to factory processing. Notice which job belongs to pasteurisation and which belongs to homogenisation; do not copy temperatures or operating settings.",
+              "fallback": "If YouTube is blocked or unsuitable, use the six theory paragraphs and four takeaways in Why milk is processed. No knowledge check or written evidence depends on watching this clip.",
+              "rationale": "This official Australian dairy education clip directly reinforces the existing farm-to-factory sequence. It is used only to observe process order and purpose, not to establish exact temperatures, times, shelf life, local equipment or universal farm routines.",
+              "sourceCheck": "YouTube oEmbed returned HTTP 200 with this exact title and channel on 5 August 2026. Dairy Australia's current student dairy-production page covers the same processing sequence.",
+              "relatedSourceUrl": "https://www.dairy.com.au/education/students/about-australian-dairy/dairy-production",
+              "disclaimer": "Teacher directions, the current project plan and local SOPs control any practical work. This clip is observation-only and does not authorise handling raw milk, using processing equipment or changing any operating setting."
+            }
+          ],
           "visual": {
             "image": "assets/theory/theory-m06-s01.png",
             "alt": "Agriculture learning observation scene: a sealed milk bottle and blank process-sequence cards sit before a clean dairy processing viewing area with closed stainless equipment.",
@@ -4396,6 +4411,21 @@ window.COURSE_DATA = {
             "assistantTurnId": "conversation-turn-28",
             "capturedBy": "TASK 11 integration"
           },
+          "videos": [
+            {
+              "sectionId": "8.2",
+              "title": "First Outdoor Test of RIPPA™ and VIIPA™",
+              "channel": "unisydneyacfr",
+              "videoId": "9wlUCswEd0c",
+              "url": "https://www.youtube.com/watch?v=9wlUCswEd0c",
+              "watchFor": "Identify what the prototype senses, how it makes a targeted response and which parts are research testing rather than evidence of standard practice on every farm.",
+              "fallback": "If YouTube is blocked or unsuitable, use the six theory paragraphs and four takeaways in Sensors, robotics and precision decisions. No knowledge check or written evidence depends on watching this clip.",
+              "rationale": "This University of Sydney agricultural robotics research-group clip shows the actual RIPPA and VIIPA prototype already named in the adjacent theory. It demonstrates a research example without claiming current adoption, proven performance, reduced chemical use or suitability for a particular farm.",
+              "sourceCheck": "YouTube oEmbed returned HTTP 200 with this exact title and channel on 5 August 2026. The University of Sydney's RIPPA research page embeds the same video and identifies it as an outdoor prototype test.",
+              "relatedSourceUrl": "https://www.sydney.edu.au/news-opinion/news/2015/10/21/rippa-robot-takes-farms-forward-to-the-future-.html",
+              "disclaimer": "Teacher directions, the current project plan and local SOPs control any practical work. Do not copy machinery settings, application methods or operating procedures from this research footage."
+            }
+          ],
           "visual": {
             "image": "assets/theory/theory-m08-s02.png",
             "alt": "Agriculture learning observation scene: a small guarded robotic arm and a plain field sensor operate at safe distance in a produce facility while a student holds a blank evidence sheet.",

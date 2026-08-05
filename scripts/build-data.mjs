@@ -8,6 +8,10 @@ const visualManifestPath = path.join(repo, "source-notes", "VISUAL-MANIFEST.json
 const visualRecords = fs.existsSync(visualManifestPath)
   ? (JSON.parse(fs.readFileSync(visualManifestPath, "utf8")).records || [])
   : [];
+const videoManifestPath = path.join(repo, "source-notes", "YOUTUBE-LEARNING-MANIFEST.json");
+const videoRecords = fs.existsSync(videoManifestPath)
+  ? (JSON.parse(fs.readFileSync(videoManifestPath, "utf8")).clips || [])
+  : [];
 const metadata = [
   [1, "Introduction to Agriculture", "Define agriculture, connect daily products to sectors and investigate how people and technologies shape production."],
   [2, "The Value of Agriculture and Food Security", "Explain why agriculture matters and examine the availability, access, use and stability of food."],
@@ -100,8 +104,10 @@ const modules = metadata.filter((item) => handoffPath(item.file)).map((item) => 
     summary: item.summary,
     sections: sections.map(({ checks, written, ...section }, theoryIndex) => {
       const visualRecord = visualRecords.find((record) => record.role === "theory_visual" && record.module === item.module && record.section === theoryIndex + 1);
+      const videos = videoRecords.filter((record) => record.sectionId === section.id);
       return {
         ...section,
+        ...(videos.length ? { videos } : {}),
         visual: {
           image: visualRecord?.relative_path || `assets/theory/theory-m${String(item.module).padStart(2, "0")}-s${String(theoryIndex + 1).padStart(2, "0")}.png`,
           alt: visualRecord?.alt || `Teaching visual supporting ${section.title}`,

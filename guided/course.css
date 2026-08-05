@@ -240,6 +240,22 @@ textarea { min-height: 135px; resize: vertical; }
 .plan-actions { display: flex !important; flex-wrap: wrap; gap: 8px 12px; margin-top: 10px; }
 .plan-open-link, .plan-download-link { color: var(--steel-dark); font-weight: 850; text-underline-offset: 3px; }
 .plan-open-link:focus-visible, .plan-download-link:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
+.video-learning { clear: both; margin: 30px 0 8px; padding: 22px; border: 1px solid var(--line); border-radius: 16px; background: #f7fbf9; }
+.video-learning > h3 { margin: 3px 0 2px; color: var(--ink); font-size: clamp(1.35rem, 3vw, 1.8rem); }
+.video-learning__channel { margin: 0 0 16px; color: var(--muted) !important; font-size: .9rem; font-weight: 750; }
+.video-learning__grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(240px, .85fr); gap: 18px; align-items: start; }
+.video-learning__player { min-width: 0; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; background: #0b1d22; box-shadow: 0 10px 24px rgba(17, 46, 52, .14); }
+.video-learning__player iframe { display: block; width: 100%; height: 100%; border: 0; }
+.video-learning__notes { min-width: 0; }
+.video-learning__notes h4 { margin: 0 0 5px; color: var(--steel-dark); font-size: 1rem; }
+.video-learning__notes h4:not(:first-child) { margin-top: 17px; }
+.video-learning__notes p { margin: 0; }
+.video-learning__fallback { margin: 18px 0 0; padding: 13px 15px; border-left: 4px solid var(--amber); border-radius: 0 10px 10px 0; background: var(--amber-pale); }
+.video-learning__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin-top: 16px; }
+.video-learning__actions > a:not(.btn) { color: var(--steel-dark); font-weight: 850; text-underline-offset: 3px; }
+.video-learning__actions > a:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
+.video-learning__disclaimer { margin-top: 17px; font-weight: 650; }
+.video-learning__source-check { margin: 13px 0 0; color: var(--muted) !important; font-size: .84rem; line-height: 1.45; }
 .callout { margin: 20px 0 0; padding: 16px 18px; border-radius: 12px; background: #e6f1f3; border-left: 5px solid var(--steel); font-weight: 750; }
 .theory-sources { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 0.94rem; }
 .theory-sources ul { margin: 7px 0; }
@@ -329,6 +345,7 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .sister-hero .hero-inner { grid-template-columns: 1fr; }
   .hero-showcase { margin-top: -30px; }
   .theory-visual, .theory-visual--left { float: none; width: 100%; margin: 1.1rem 0; }
+  .video-learning__grid { grid-template-columns: 1fr; }
   .grid.three, .grid.two, .folio-grid { grid-template-columns: 1fr; }
   .nav-wrap { display: grid; grid-template-columns: minmax(0, 1fr); align-items: start; justify-content: stretch; padding: 14px 0; }
   .brand { display: block; width: 100%; }
@@ -350,12 +367,15 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .written-evidence textarea { min-height: 210px; }
   .tool-photo-gallery { grid-template-columns: 1fr; }
   .plan-sheet-gallery { grid-template-columns: 1fr; }
+  .video-learning { padding: 16px; }
+  .video-learning__actions { align-items: stretch; }
+  .video-learning__actions .btn { width: 100%; text-align: center; }
   .nav-links { gap: 5px; }
   .nav-links a { padding: 7px 3px; font-size: .9rem; }
 }
 
 @media print {
-  .site-header, .skip-link, .hero-actions, .button-row, .clarification-button, .question-help, .module-nav, .infographic-open-label, footer { display: none !important; }
+  .site-header, .skip-link, .hero-actions, .button-row, .clarification-button, .question-help, .module-nav, .infographic-open-label, .video-learning__player, footer { display: none !important; }
   body { background: white; font-size: 11pt; }
   .module-hero { color: black; background: white; padding: 20px 0; }
   .module-main, .folio-main { width: 100%; padding: 0; }
@@ -366,6 +386,7 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .plan-sheet-card { break-inside: avoid; box-shadow: none; }
   .plan-preview-link img { max-height: 105mm; }
   .plan-open-link::after { content: " (" attr(href) ")"; font-weight: 400; overflow-wrap: anywhere; }
+  .video-learning__actions .btn::after { content: " (" attr(href) ")"; font-weight: 400; overflow-wrap: anywhere; }
   textarea { border: 1px solid #777; min-height: 90px; }
   .model-feedback.open { display: block; }
   .folio-grid { display: block; }

@@ -106,6 +106,30 @@
     return `<section class="plan-guidance" aria-labelledby="${id}"><p class="eyebrow">Verified project plans</p><h3 id="${id}">${esc(guidance.heading)}</h3>${guidance.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}<h4>Plan-reading takeaways</h4><ul>${guidance.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul><div class="callout"><strong>Drawing source boundary:</strong> ${esc(guidance.boundary)}</div><div class="plan-sheet-gallery">${sheets}</div></section>`;
   }
 
+  function videoLearningHtml(section) {
+    if (!section.videos?.length) return "";
+    return section.videos.map((video) => {
+      const titleId = `video-${video.videoId}-title`;
+      const embedUrl = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(video.videoId)}?rel=0`;
+      return `<section class="video-learning" aria-labelledby="${titleId}">
+        <p class="eyebrow">Watch with a purpose</p>
+        <h3 id="${titleId}">${esc(video.title)}</h3>
+        <p class="video-learning__channel">YouTube channel: ${esc(video.channel)}</p>
+        <div class="video-learning__grid">
+          <div class="video-learning__player"><iframe src="${embedUrl}" title="${esc(video.title)} by ${esc(video.channel)}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          <div class="video-learning__notes">
+            <h4>Watch for</h4><p>${esc(video.watchFor)}</p>
+            <h4>Why this clip is here</h4><p>${esc(video.rationale)}</p>
+          </div>
+        </div>
+        <p class="video-learning__fallback"><strong>No embed or no YouTube?</strong> ${esc(video.fallback)}</p>
+        <div class="video-learning__actions"><a class="btn ghost" href="${esc(video.url)}" target="_blank" rel="noopener">Open ${esc(video.title)} on YouTube <span aria-hidden="true">↗</span></a><a href="${esc(video.relatedSourceUrl)}" target="_blank" rel="noopener">Read the supporting source <span aria-hidden="true">↗</span></a></div>
+        <div class="callout video-learning__disclaimer"><strong>Teacher, plan and SOP boundary:</strong> ${esc(video.disclaimer)}</div>
+        <p class="video-learning__source-check"><strong>Source and availability check:</strong> ${esc(video.sourceCheck)}</p>
+      </section>`;
+    }).join("");
+  }
+
   function theoryHtml(section, index, moduleNumber) {
     const visual = section.visual ? `<figure class="theory-visual${index % 2 ? " theory-visual--left" : ""}"><a class="theory-visual__link zoomable-infographic" href="${esc(section.visual.image)}" target="_blank" rel="noopener" aria-label="Open teaching visual in a new tab: ${esc(section.visual.alt)}"><div class="theory-visual__image" aria-hidden="true" style="background-image:url('${esc(section.visual.image)}')"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></div></a><figcaption>${esc(section.visual.caption)}</figcaption></figure>` : "";
     const sources = section.sources?.length ? `<div class="theory-sources"><strong>Sources used for this learning:</strong><ul>${section.sources.map((source) => `<li><a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.label)} <span aria-hidden="true">↗</span></a></li>`).join("")}</ul>${section.verificationNote ? `<p>${esc(section.verificationNote)}</p>` : ""}</div>` : "";
@@ -116,6 +140,7 @@
       ${planGuidanceHtml(section)}
       ${toolPhotosHtml(section)}
       <h3 class="theory-chunk-heading">Key takeaways</h3><ul>${section.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
+      ${videoLearningHtml(section)}
       <div class="callout"><strong>Source boundary:</strong> ${esc(section.boundary)}</div>
       ${sources}
     </section>`;

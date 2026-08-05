@@ -45,6 +45,7 @@ const requiredFiles = [
   "source-notes/EVIDENCE-INPUT-PACK.md", "source-notes/FOLIO-INPUT-PACK.md",
   "source-notes/QUESTION-BANK.json", "source-notes/VISUAL-MANIFEST.json",
   "source-notes/VISUAL-SEMANTIC-AUDIT.md", "source-notes/CURRENT-CLAIMS-REGISTER.md",
+  "source-notes/YOUTUBE-LEARNING-MANIFEST.json",
   ...Array.from({ length: 11 }, (_, moduleIndex) => Array.from({ length: 3 }, (_, sectionIndex) => `assets/theory/theory-m${String(moduleIndex + 1).padStart(2, "0")}-s${String(sectionIndex + 1).padStart(2, "0")}.png`)).flat(),
   ...Array.from({ length: 12 }, (_, index) => `assets/visuals/folio-card-${String(index + 1).padStart(2, "0")}.png`)
 ];
@@ -103,6 +104,16 @@ sections.forEach((section) => {
   must(section.visual?.image && section.visual?.alt && section.visual?.caption, `${section.id} is missing a complete visual record.`);
   must(fs.existsSync(path.join(repo, section.visual.image)), `${section.id} links to missing visual ${section.visual.image}.`);
 });
+const videoManifest = JSON.parse(read("source-notes/YOUTUBE-LEARNING-MANIFEST.json"));
+const videos = sections.flatMap((section) => (section.videos || []).map((video) => ({ ...video, adjacentSectionId: section.id })));
+must(videoManifest.status === "published", "YouTube learning manifest must record the authorised published state.");
+must(videos.length === 2, "Year 8 Agriculture must contain exactly the two verified, theory-adjacent YouTube clips in this handoff.");
+must(new Set(videos.map((video) => video.videoId)).size === videos.length, "YouTube learning clips must have unique video IDs.");
+must(videos.every((video) => /^[A-Za-z0-9_-]{11}$/.test(video.videoId)), "Every YouTube clip must have a valid 11-character video ID.");
+must(videos.every((video) => video.url === `https://www.youtube.com/watch?v=${video.videoId}`), "Every YouTube fallback URL must match its video ID.");
+must(videos.every((video) => video.title?.trim() && video.channel?.trim() && video.watchFor?.trim() && video.fallback?.trim() && video.rationale?.trim() && video.sourceCheck?.trim() && video.relatedSourceUrl?.trim() && video.disclaimer?.trim()), "Every YouTube clip must include title/channel, watch prompt, no-video fallback, rationale, source check, related source and disclaimer.");
+must(videos.some((video) => video.videoId === "02MubUjvEPM" && video.adjacentSectionId === "6.1"), "The milk-processing clip must remain adjacent to Why milk is processed.");
+must(videos.some((video) => video.videoId === "9wlUCswEd0c" && video.adjacentSectionId === "8.2"), "The RIPPA clip must remain adjacent to Sensors, robotics and precision decisions.");
 const written = course.modules.flatMap((module) => module.written);
 must(written.length >= 33 && written.length <= 66, "Course must preserve at least one and no more than two grounded written-evidence tasks per section.");
 must(written.every((item) => item.prompt?.trim() && item.model?.trim()), "Every written task must include a prompt and Appropriate response example.");
@@ -126,6 +137,7 @@ must(courseScript.includes("Print / Save PDF"), "Modules must include Print / Sa
 must(courseScript.includes("localStorage"), "Course evidence must autosave in local browser storage.");
 must(courseScript.includes("indexedDB"), "Folio photo evidence must use device-local IndexedDB persistence.");
 must(courseScript.includes('target="_blank"') || courseScript.includes('visualLink.target = "_blank"'), "Teaching visuals must offer Open larger in a new tab.");
+must(courseScript.includes("youtube-nocookie.com/embed/") && courseScript.includes("No embed or no YouTube?"), "YouTube learning must use privacy-enhanced embeds and retain a visible non-embed fallback.");
 
 const claims = read("source-notes/CURRENT-CLAIMS-REGISTER.md");
 must(claims.includes("Publication state: RELEASE-CLEAR"), "Current-claims register is not release-clear.");
