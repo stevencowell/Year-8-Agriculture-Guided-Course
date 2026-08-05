@@ -3,10 +3,10 @@ import path from "node:path";
 
 const { chromium } = await import("file:///C:/Users/scowell1/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs");
 const repo = path.resolve(import.meta.dirname, "..");
-const output = path.resolve(repo, "..", "..", "outputs", "qa-browser");
+const output = path.resolve(repo, "..", "..", "outputs", process.env.AGRICULTURE_QA_OUTPUT || "qa-browser");
 fs.mkdirSync(output, { recursive: true });
 
-const base = "http://127.0.0.1:8881";
+const base = process.env.AGRICULTURE_QA_BASE || "http://127.0.0.1:8881";
 const failures = [];
 const results = [];
 const must = (condition, message) => {
