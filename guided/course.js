@@ -143,7 +143,7 @@
       ${videoLearningHtml(section)}
       <div class="callout"><strong>Source boundary:</strong> ${esc(section.boundary)}</div>
       ${sources}
-    </section>`;
+    </section>${checksHtml(course.modules[moduleNumber - 1], moduleNumber, index)}${writtenHtml(course.modules[moduleNumber - 1], moduleNumber, index)}`;
   }
 
   function helpHtml(id, sectionIndex, module, moduleNumber) {
@@ -151,17 +151,20 @@
     return `<div class="question-help"><button class="hint-toggle" type="button" aria-expanded="false" aria-controls="${id}-hint" data-toggle="${id}-hint">Need a hint?</button><div class="theory-direction" id="${id}-hint" hidden><a href="#theory-${moduleNumber}-${sectionIndex + 1}">Revisit ${esc(section.title)}</a><p>${esc(section.takeaways[0])}</p></div></div>`;
   }
 
-  function checksHtml(module, moduleNumber) {
+  function checksHtml(module, moduleNumber, theoryIndex) {
+    if (!Number.isInteger(theoryIndex)) return "";
     const indexedChecks = module.checks.map((check, index) => ({ check, index }));
-    const groups = module.sections.map((section, theoryIndex) => {
+    const groups = [module.sections[theoryIndex]].map((section) => {
       const questions = indexedChecks.filter(({ check }) => check.theoryIndex === theoryIndex);
       return `<section class="check-group" id="check-group-${moduleNumber}-${theoryIndex}" aria-labelledby="check-group-title-${moduleNumber}-${theoryIndex}"><p class="eyebrow">Theory ${theoryIndex + 1} · 10 questions</p><h3 id="check-group-title-${moduleNumber}-${theoryIndex}">${esc(section.title)}</h3>${questions.map(({ check, index }, questionIndex) => `<div class="check"><h4>${questionIndex + 1}. ${esc(check.question)}</h4>${check.options.map((option, optionIndex) => `<label class="option"><input data-save data-required type="radio" name="check-${index}" value="${optionIndex}"> ${esc(option)}</label>`).join("")}${helpHtml(`check-${moduleNumber}-${index}`, check.theoryIndex, module, moduleNumber)}<button class="btn ghost" type="button" data-check-button="${index}">Check answer</button><div class="feedback" aria-live="polite" data-check-feedback="${index}"></div></div>`).join("")}</section>`;
     }).join("");
-    return `<section class="card theory-section" id="knowledge-checks"><p class="eyebrow">Knowledge checks</p><h2>Ten questions for every theory section</h2><p>Complete each source-grounded set, use the hints when needed, and check your feedback before moving to the written evidence.</p>${groups}</section>`;
+    const id = theoryIndex === 0 ? "knowledge-checks" : `knowledge-checks-${moduleNumber}-${theoryIndex + 1}`;
+    return `<section class="card theory-section" id="${id}"><p class="eyebrow">Knowledge checks</p><h2>Ten questions for every theory section</h2><p>Complete each source-grounded set, use the hints when needed, and check your feedback before moving to the written evidence.</p>${groups}</section>`;
   }
 
-  function writtenHtml(module, moduleNumber) {
-    return module.written.map((item, index) => `<section class="card theory-section written-evidence"><p class="eyebrow">Written evidence ${index + 1}</p><h2>${esc(item.title)}</h2><p>${esc(item.prompt)}</p><button class="clarification-button" type="button" data-toggle="written-${moduleNumber}-${index}-plain" aria-expanded="false">What is this asking?</button><div class="clarification-panel" id="written-${moduleNumber}-${index}-plain" hidden>${esc(item.clarification)}</div>${helpHtml(`written-${moduleNumber}-${index}`, item.theoryIndex, module, moduleNumber)}<textarea data-save data-required name="written-${index}" aria-label="${esc(item.title)} response"></textarea><button class="btn ghost" type="button" data-model-toggle="model-${moduleNumber}-${index}" aria-expanded="false">Appropriate response example</button><div class="model-feedback" id="model-${moduleNumber}-${index}"><strong>Appropriate response example:</strong> ${esc(item.model)}</div></section>`).join("");
+  function writtenHtml(module, moduleNumber, theoryIndex) {
+    if (!Number.isInteger(theoryIndex)) return "";
+    return module.written.map((item, index) => ({ item, index })).filter(({ item }) => item.theoryIndex === theoryIndex).map(({ item, index }) => `<section class="card theory-section written-evidence"><p class="eyebrow">Written evidence ${index + 1}</p><h2>${esc(item.title)}</h2><p>${esc(item.prompt)}</p><button class="clarification-button" type="button" data-toggle="written-${moduleNumber}-${index}-plain" aria-expanded="false">What is this asking?</button><div class="clarification-panel" id="written-${moduleNumber}-${index}-plain" hidden>${esc(item.clarification)}</div>${helpHtml(`written-${moduleNumber}-${index}`, item.theoryIndex, module, moduleNumber)}<textarea data-save data-required name="written-${index}" aria-label="${esc(item.title)} response"></textarea><button class="btn ghost" type="button" data-model-toggle="model-${moduleNumber}-${index}" aria-expanded="false">Appropriate response example</button><div class="model-feedback" id="model-${moduleNumber}-${index}"><strong>Appropriate response example:</strong> ${esc(item.model)}</div></section>`).join("");
   }
 
   function renderModule() {
