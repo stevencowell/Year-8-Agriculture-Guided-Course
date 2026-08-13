@@ -1,0 +1,18 @@
+/* Retain the source-bound plan-status notice, but remove duplicated orientation and reference material from the entry page. */
+.hero-showcase figcaption,
+.landing-main > .section:first-child,
+#outcomes,
+#outcomes + .section {
+  display: none !important;
+}
+
+#pathway .module-card:last-child {
+  display: none !important;
+}
+
+#pathway .module-card .module-link {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: inherit !important;
+  box-shadow: none !important;
+}
