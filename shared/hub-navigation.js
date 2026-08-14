@@ -3,7 +3,7 @@
 
   const HUB_URL = "https://stevencowell.github.io/Main-Page/";
   const script = document.currentScript;
-  const stylesheetUrl = script ? new URL("sister-site.css", script.src).href : "";
+  const stylesheetUrl = script ? new URL("sister-site.css?v=20260814-agriculture-1", script.src).href : "";
   const courseRoot = script ? new URL("../", script.src) : new URL("./", location.href);
 
   if (stylesheetUrl && !document.querySelector('link[data-sister-site-styles]')) {
@@ -38,8 +38,6 @@
     { label: "Modules", href: "index.html#pathway", current: path.endsWith("/module.html") },
     { label: "Busy Work", href: "busy-work/", current: path.includes("/busy-work/") },
     { label: "My folio", href: "folio.html", current: path.endsWith("/folio.html") },
-    { label: "Plan status", href: "index.html#project-plan" },
-    { label: "Outcomes", href: "index.html#outcomes" },
     { label: "Main Menu", href: HUB_URL, external: true }
   ];
 
