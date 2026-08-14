@@ -42,6 +42,7 @@ button, input, textarea, select { font: inherit; }
   border: 0;
   border-bottom: 1px solid var(--tas-line);
   box-shadow: 0 4px 14px rgba(25, 48, 74, 0.07);
+  padding: 0 !important;
 }
 :is(.course-bar-inner, .nav-wrap) {
   width: min(var(--tas-page), calc(100% - 36px));
@@ -79,12 +80,13 @@ button, input, textarea, select { font: inherit; }
 
 /* Consistent module title banner */
 :is(.lesson-hero, .module-hero, .page-hero) {
-  min-height: 250px;
+  min-height: 250px !important;
   color: #fff;
-  background: linear-gradient(125deg, var(--tas-brand-dark), var(--tas-brand));
+  background: linear-gradient(125deg, var(--tas-brand-dark), var(--tas-brand)) !important;
   border: 0;
   border-bottom: 5px solid #d9a441;
   box-shadow: none;
+  padding: 0 !important;
 }
 :is(.lesson-hero .hero-inner, .module-hero-inner, .page-hero .wrap, .page-hero > .wrap) {
   width: min(var(--tas-page), calc(100% - 36px));
@@ -95,6 +97,7 @@ button, input, textarea, select { font: inherit; }
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  max-width: var(--tas-page) !important;
 }
 :is(.lesson-hero, .module-hero, .page-hero) :is(h1, h2) {
   max-width: 900px;
@@ -119,8 +122,9 @@ button, input, textarea, select { font: inherit; }
 body > main,
 .module-layout,
 .theory-main {
-  width: min(1120px, calc(100% - 34px));
-  margin: 30px auto 60px;
+  width: min(1120px, calc(100% - 34px)) !important;
+  max-width: 1120px !important;
+  margin: 30px auto 60px !important;
 }
 .module-layout {
   display: grid;
