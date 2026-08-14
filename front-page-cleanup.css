@@ -1,6 +1,9 @@
-/* Retain the source-bound plan-status notice, but remove duplicated orientation and reference material from the entry page. */
+/* Keep the student entry page focused on orientation and the real learning pathway. */
 .hero-showcase figcaption,
+.infographic-open-label,
+.course-family-intro__boundary,
 .landing-main > .section:first-child,
+#project-plan,
 #outcomes,
 #outcomes + .section {
   display: none !important;
