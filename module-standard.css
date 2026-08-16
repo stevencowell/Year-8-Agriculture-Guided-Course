@@ -1,0 +1,9 @@
+:root { --module-max: 1180px; --module-desktop-gutter: 36px; --module-mobile-gutter: 32px; --module-card-gap: 24px; }
+.module-hero { display: grid; align-content: center; min-height: 295px; }
+.module-hero-inner { width: min(var(--module-max), calc(100% - var(--module-desktop-gutter))); max-width: none; }
+.module-hero h1 { font-size: 76.8px; line-height: 88.32px; }
+.module-main { display: grid; gap: var(--module-card-gap); width: min(var(--module-max), calc(100% - var(--module-desktop-gutter))); max-width: none; padding: 72px 0 90px; }
+.module-main > * { min-width: 0; }
+.module-main .card { margin: 0; padding: 21.6px; }
+.module-main .theory-section, .module-main .progress-panel, .module-main .module-nav { margin-top: 0; margin-bottom: 0; }
+@media (max-width: 680px) { .module-hero-inner, .module-main { width: min(var(--module-max), calc(100% - var(--module-mobile-gutter))); } .module-hero h1 { font-size: 40px; line-height: 46px; } .module-main .card { padding: 21px 18px; } }
