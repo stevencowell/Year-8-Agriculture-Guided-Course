@@ -1,0 +1,67 @@
+.teacher-program-section {
+  padding: clamp(2rem, 5vw, 4rem) 0;
+  background: #f5f8f7;
+}
+
+.teacher-program-section .wrap {
+  width: min(1180px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.teacher-program-section h2,
+.teacher-program-section h3 {
+  color: #18374a;
+}
+
+.teacher-program-section .button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.teacher-program-section .program-table-wrap {
+  overflow-x: auto;
+  margin: .75rem 0 1.5rem;
+  border: 1px solid #c7d6d8;
+  border-radius: .65rem;
+  background: #fff;
+}
+
+.teacher-program-section table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  font-size: .92rem;
+}
+
+.teacher-program-section th,
+.teacher-program-section td {
+  padding: .65rem .7rem;
+  border: 1px solid #d9e2e3;
+  text-align: left;
+  vertical-align: top;
+}
+
+.teacher-program-section thead th,
+.teacher-program-section tbody th {
+  background: #18374a;
+  color: #fff;
+}
+
+.teacher-program-section tbody tr:nth-child(even) td {
+  background: #f4f8f8;
+}
+
+@media (max-width: 700px) {
+  .teacher-program-section .wrap { width: min(100% - 1rem, 1180px); }
+  .teacher-program-section table { font-size: .84rem; }
+  .teacher-program-section th,
+  .teacher-program-section td { padding: .5rem; }
+}
+
+@media print {
+  .teacher-program-section { background: #fff; }
+  .teacher-program-section .program-table-wrap { overflow: visible; border: 0; }
+  .teacher-program-section table { min-width: 0; font-size: 8.5pt; }
+}

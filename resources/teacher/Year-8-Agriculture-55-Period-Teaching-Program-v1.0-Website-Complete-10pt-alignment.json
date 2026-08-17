@@ -1,0 +1,2520 @@
+{
+  "schema_version": "1.1",
+  "program_id": "year-8-agriculture-program",
+  "version": "1.0",
+  "course": {
+    "title": "Year 8 Agriculture",
+    "classification": "Stage 4 Technology Mandatory – Food and agricultural practices",
+    "stage_or_year": "Stage 4",
+    "delivery_year": 2026,
+    "project": "Year 8 Agriculture"
+  },
+  "site": {
+    "name": "Year 8 Agriculture",
+    "reference": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-17\\ca\\work\\program-batch\\repos\\Year-8-Agriculture-Guided-Course",
+    "inspection_date": "2026-08-17",
+    "state": "repository"
+  },
+  "syllabus": {
+    "title": "Technology 7–8 Syllabus (2023)",
+    "version": "2023",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023",
+    "verified_date": "2026-08-17",
+    "mandatory_from": "2026",
+    "early_implementation": "not-applicable",
+    "steve_decision": "use-new-mandatory",
+    "implementation_status": "mandatory-for-delivery"
+  },
+  "timetable": {
+    "weeks": 22,
+    "period_minutes": 60,
+    "periods_per_fortnight": 5,
+    "total_periods": 55,
+    "status": "Provisional — Teacher to confirm"
+  },
+  "outcomes": [
+    {
+      "code": "TE4-MSC-01",
+      "statement": "explains how materials, systems and components contribute to solutions",
+      "source_id": "SYL-01",
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes"
+    },
+    {
+      "code": "TE4-PDP-01",
+      "statement": "describes the practices and processes of designers and producers",
+      "source_id": "SYL-01",
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes"
+    },
+    {
+      "code": "TE4-SDP-01",
+      "statement": "explains relationships between sustainability, design and production",
+      "source_id": "SYL-01",
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/outcomes"
+    }
+  ],
+  "source_register": [
+    {
+      "id": "SYL-01",
+      "title": "Technology 7–8 Syllabus (2023)",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023",
+      "revision": "Verified 2026-08-17",
+      "use": "Framework, outcomes and content descriptors"
+    },
+    {
+      "id": "SITE-01",
+      "title": "Year 8 Agriculture guided-course website",
+      "authority": "website",
+      "location": "C:\\Users\\scowell1\\Documents\\Codex\\2026-08-17\\ca\\work\\program-batch\\repos\\Year-8-Agriculture-Guided-Course",
+      "revision": "Inspected 2026-08-17",
+      "use": "Named modules, theory sections, checks, responses and evidence routes"
+    }
+  ],
+  "website_learning_inventory": [
+    {
+      "id": "M01-S01",
+      "route": "module.html?module=1#theory-1-1",
+      "theory_section": "Agriculture and everyday life",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M01-S02",
+      "route": "module.html?module=1#theory-1-2",
+      "theory_section": "Agricultural industry sectors",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M01-S03",
+      "route": "module.html?module=1#theory-1-3",
+      "theory_section": "Change in Australian agriculture",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M02-S01",
+      "route": "module.html?module=2#theory-2-1",
+      "theory_section": "Agriculture and connected markets",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M02-S02",
+      "route": "module.html?module=2#theory-2-2",
+      "theory_section": "The four dimensions of food security",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M02-S03",
+      "route": "module.html?module=2#theory-2-3",
+      "theory_section": "Threats and resilient responses",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M03-S01",
+      "route": "module.html?module=3#theory-3-1",
+      "theory_section": "Cattle groups and adaptation clues",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        10
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M03-S02",
+      "route": "module.html?module=3#theory-3-2",
+      "theory_section": "Selective breeding and evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        10
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M03-S03",
+      "route": "module.html?module=3#theory-3-3",
+      "theory_section": "Matching cattle to a production environment",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        10
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M04-S01",
+      "route": "module.html?module=4#theory-4-1",
+      "theory_section": "Extensive and intensive beef systems",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        15
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M04-S02",
+      "route": "module.html?module=4#theory-4-2",
+      "theory_section": "Pasture and feedlot feeding pathways",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        15
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M04-S03",
+      "route": "module.html?module=4#theory-4-3",
+      "theory_section": "Comparing systems with evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        15
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M05-S01",
+      "route": "module.html?module=5#theory-5-1",
+      "theory_section": "Dairy breeds: traits and evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        19
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M05-S02",
+      "route": "module.html?module=5#theory-5-2",
+      "theory_section": "Conditions, resources and dairy production",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        19
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M05-S03",
+      "route": "module.html?module=5#theory-5-3",
+      "theory_section": "From milk to value-added products",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        19
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M06-S01",
+      "route": "module.html?module=6#theory-6-1",
+      "theory_section": "Why milk is processed",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        24
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M06-S02",
+      "route": "module.html?module=6#theory-6-2",
+      "theory_section": "Food safety controls from farm to fridge",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        24
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M06-S03",
+      "route": "module.html?module=6#theory-6-3",
+      "theory_section": "Nutrition information and informed choice",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        24
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M07-S01",
+      "route": "module.html?module=7#theory-7-1",
+      "theory_section": "What horticulture includes",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        28
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M07-S02",
+      "route": "module.html?module=7#theory-7-2",
+      "theory_section": "Why crops suit particular regions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        28
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M07-S03",
+      "route": "module.html?module=7#theory-7-3",
+      "theory_section": "Seasonality, markets and production decisions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        28
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M08-S01",
+      "route": "module.html?module=8#theory-8-1",
+      "theory_section": "Tracing a horticultural product from paddock to plate",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        33
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M08-S02",
+      "route": "module.html?module=8#theory-8-2",
+      "theory_section": "Sensors, robotics and precision decisions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        33
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M08-S03",
+      "route": "module.html?module=8#theory-8-3",
+      "theory_section": "Plant parts, food labels and balanced choices",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        33
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M09-S01",
+      "route": "module.html?module=9#theory-9-1",
+      "theory_section": "Pork products and value adding",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        37
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M09-S02",
+      "route": "module.html?module=9#theory-9-2",
+      "theory_section": "Reading country-of-origin evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        38
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M09-S03",
+      "route": "module.html?module=9#theory-9-3",
+      "theory_section": "Breed traits, crossbreeding and evidence",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        39
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M10-S01",
+      "route": "module.html?module=10#theory-10-1",
+      "theory_section": "Comparing pig housing systems",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        44
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M10-S02",
+      "route": "module.html?module=10#theory-10-2",
+      "theory_section": "Feed, growth and production goals",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        45
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M10-S03",
+      "route": "module.html?module=10#theory-10-3",
+      "theory_section": "Welfare evidence and defensible choices",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        46
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M11-S01",
+      "route": "module.html?module=11#theory-11-1",
+      "theory_section": "Poultry, broilers and layers",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        50
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M11-S02",
+      "route": "module.html?module=11#theory-11-2",
+      "theory_section": "A poultry supply chain and location decisions",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        51
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "M11-S03",
+      "route": "module.html?module=11#theory-11-3",
+      "theory_section": "Layer systems, welfare indicators and trade-offs",
+      "quiz_or_check": "10-question knowledge check",
+      "question_count": 10,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        52
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Completed check feedback and saved scaffolded response",
+      "teacher_to_confirm_ids": []
+    }
+  ],
+  "periods": [
+    {
+      "type": "Site/theory",
+      "focus": "Module 1: Agriculture and everyday life; Agricultural industry sectors; Change in Australian agriculture",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M01-S01, M01-S02, M01-S03.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=1#theory-1-1",
+        "module.html?module=1#theory-1-2",
+        "module.html?module=1#theory-1-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M01-S01",
+        "M01-S02",
+        "M01-S03"
+      ],
+      "number": 1
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 1: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 2
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 1: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 3
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 1: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 4
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 1: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 5
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 2: Agriculture and connected markets; The four dimensions of food security; Threats and resilient responses",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M02-S01, M02-S02, M02-S03.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=2#theory-2-1",
+        "module.html?module=2#theory-2-2",
+        "module.html?module=2#theory-2-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M02-S01",
+        "M02-S02",
+        "M02-S03"
+      ],
+      "number": 6
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 2: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 7
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 2: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 8
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 2: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 9
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 3: Cattle groups and adaptation clues; Selective breeding and evidence; Matching cattle to a production environment",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M03-S01, M03-S02, M03-S03.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=3#theory-3-1",
+        "module.html?module=3#theory-3-2",
+        "module.html?module=3#theory-3-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M03-S01",
+        "M03-S02",
+        "M03-S03"
+      ],
+      "number": 10
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 3: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 11
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 3: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 12
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 3: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 13
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 3: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 14
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 4: Extensive and intensive beef systems; Pasture and feedlot feeding pathways; Comparing systems with evidence",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M04-S01, M04-S02, M04-S03.",
+      "syllabus_content": [
+        "Develop and test digital solutions using data, algorithms, systems and components."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=4#theory-4-1",
+        "module.html?module=4#theory-4-2",
+        "module.html?module=4#theory-4-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M04-S01",
+        "M04-S02",
+        "M04-S03"
+      ],
+      "number": 15
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 4: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 16
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 4: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 17
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 4: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 18
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 5: Dairy breeds: traits and evidence; Conditions, resources and dairy production; From milk to value-added products",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M05-S01, M05-S02, M05-S03.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=5#theory-5-1",
+        "module.html?module=5#theory-5-2",
+        "module.html?module=5#theory-5-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M05-S01",
+        "M05-S02",
+        "M05-S03"
+      ],
+      "number": 19
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 5: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 20
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 5: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 21
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 5: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 22
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 5: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 23
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 6: Why milk is processed; Food safety controls from farm to fridge; Nutrition information and informed choice",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M06-S01, M06-S02, M06-S03.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=6#theory-6-1",
+        "module.html?module=6#theory-6-2",
+        "module.html?module=6#theory-6-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M06-S01",
+        "M06-S02",
+        "M06-S03"
+      ],
+      "number": 24
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 6: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 25
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 6: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 26
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 6: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 27
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 7: What horticulture includes; Why crops suit particular regions; Seasonality, markets and production decisions",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M07-S01, M07-S02, M07-S03.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=7#theory-7-1",
+        "module.html?module=7#theory-7-2",
+        "module.html?module=7#theory-7-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M07-S01",
+        "M07-S02",
+        "M07-S03"
+      ],
+      "number": 28
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 7: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 29
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 7: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 30
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 7: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 31
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 7: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 32
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 8: Tracing a horticultural product from paddock to plate; Sensors, robotics and precision decisions; Plant parts, food labels and balanced choices",
+      "student_work": "Read the named sections; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M08-S01, M08-S02, M08-S03.",
+      "syllabus_content": [
+        "Develop and test digital solutions using data, algorithms, systems and components."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=8#theory-8-1",
+        "module.html?module=8#theory-8-2",
+        "module.html?module=8#theory-8-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M08-S01",
+        "M08-S02",
+        "M08-S03"
+      ],
+      "number": 33
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 8: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 34
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 8: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 35
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 8: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 36
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 9: Pork products and value adding",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M09-S01.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=9#theory-9-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M09-S01"
+      ],
+      "number": 37
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 9: Reading country-of-origin evidence",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M09-S02.",
+      "syllabus_content": [
+        "Investigate materials and production processes; develop, produce and evaluate designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=9#theory-9-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M09-S02"
+      ],
+      "number": 38
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 9: Breed traits, crossbreeding and evidence",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M09-S03.",
+      "syllabus_content": [
+        "Investigate materials and production processes; develop, produce and evaluate designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=9#theory-9-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M09-S03"
+      ],
+      "number": 39
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 9: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 40
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 9: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 41
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 9: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 42
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 9: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 43
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 10: Comparing pig housing systems",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M10-S01.",
+      "syllabus_content": [
+        "Develop and test digital solutions using data, algorithms, systems and components."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=10#theory-10-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M10-S01"
+      ],
+      "number": 44
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 10: Feed, growth and production goals",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M10-S02.",
+      "syllabus_content": [
+        "Investigate materials and production processes; develop, produce and evaluate designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=10#theory-10-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M10-S02"
+      ],
+      "number": 45
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 10: Welfare evidence and defensible choices",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M10-S03.",
+      "syllabus_content": [
+        "Investigate materials and production processes; develop, produce and evaluate designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=10#theory-10-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M10-S03"
+      ],
+      "number": 46
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 10: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 47
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 10: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 48
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 10: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 49
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 11: Poultry, broilers and layers",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M11-S01.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=11#theory-11-1"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M11-S01"
+      ],
+      "number": 50
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 11: A poultry supply chain and location decisions",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M11-S02.",
+      "syllabus_content": [
+        "Investigate food and agricultural systems, influences, sustainability and designed solutions."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=11#theory-11-2"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M11-S02"
+      ],
+      "number": 51
+    },
+    {
+      "type": "Site/theory",
+      "focus": "Module 11: Layer systems, welfare indicators and trade-offs",
+      "student_work": "Read the named section; complete each 10-question check and saved response.",
+      "evidence": "Check feedback and response evidence: M11-S03.",
+      "syllabus_content": [
+        "Develop and test digital solutions using data, algorithms, systems and components."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "module.html?module=11#theory-11-3"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [],
+      "website_learning_ids": [
+        "M11-S03"
+      ],
+      "number": 52
+    },
+    {
+      "type": "Project/folio",
+      "focus": "Module 11: consolidate folio and project evidence",
+      "student_work": "Review saved responses; organise evidence, feedback and evaluation against the current teacher direction.",
+      "evidence": "Folio entry, source record, planning/evaluation note or depth-study evidence as applicable.",
+      "syllabus_content": [
+        "Plan, manage, document, communicate and evaluate design and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "mapped",
+      "site_destinations": [
+        "folio.html"
+      ],
+      "practical_authority": "not-applicable",
+      "teacher_to_confirm_ids": [
+        "TTC-03"
+      ],
+      "website_learning_ids": [],
+      "number": 53
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 11: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 54
+    },
+    {
+      "type": "Practical",
+      "focus": "Module 11: teacher-authorised practical, investigation or production block",
+      "student_work": "Follow the current teacher demonstration and local procedure; record genuine observations, progress or test evidence.",
+      "evidence": "Teacher observation and authentic practical/production record; exact method and checkpoint Teacher to confirm.",
+      "syllabus_content": [
+        "Select and safely use appropriate tools, materials, technologies and production processes."
+      ],
+      "outcome_codes": [
+        "TE4-MSC-01",
+        "TE4-PDP-01",
+        "TE4-SDP-01"
+      ],
+      "source_ids": [
+        "SYL-01",
+        "SITE-01"
+      ],
+      "site_alignment": "not-required",
+      "site_destinations": [],
+      "practical_authority": "teacher-to-confirm",
+      "teacher_to_confirm_ids": [
+        "TTC-02"
+      ],
+      "website_learning_ids": [],
+      "number": 55
+    }
+  ],
+  "site_route_map": [
+    {
+      "destination": "folio.html",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        2,
+        7,
+        11,
+        16,
+        20,
+        25,
+        29,
+        34,
+        40,
+        47,
+        53
+      ]
+    },
+    {
+      "destination": "module.html?module=1#theory-1-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "module.html?module=1#theory-1-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "module.html?module=1#theory-1-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "module.html?module=10#theory-10-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        44
+      ]
+    },
+    {
+      "destination": "module.html?module=10#theory-10-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        45
+      ]
+    },
+    {
+      "destination": "module.html?module=10#theory-10-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        46
+      ]
+    },
+    {
+      "destination": "module.html?module=11#theory-11-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        50
+      ]
+    },
+    {
+      "destination": "module.html?module=11#theory-11-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        51
+      ]
+    },
+    {
+      "destination": "module.html?module=11#theory-11-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        52
+      ]
+    },
+    {
+      "destination": "module.html?module=2#theory-2-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "destination": "module.html?module=2#theory-2-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "destination": "module.html?module=2#theory-2-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        6
+      ]
+    },
+    {
+      "destination": "module.html?module=3#theory-3-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        10
+      ]
+    },
+    {
+      "destination": "module.html?module=3#theory-3-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        10
+      ]
+    },
+    {
+      "destination": "module.html?module=3#theory-3-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        10
+      ]
+    },
+    {
+      "destination": "module.html?module=4#theory-4-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        15
+      ]
+    },
+    {
+      "destination": "module.html?module=4#theory-4-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        15
+      ]
+    },
+    {
+      "destination": "module.html?module=4#theory-4-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        15
+      ]
+    },
+    {
+      "destination": "module.html?module=5#theory-5-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        19
+      ]
+    },
+    {
+      "destination": "module.html?module=5#theory-5-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        19
+      ]
+    },
+    {
+      "destination": "module.html?module=5#theory-5-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        19
+      ]
+    },
+    {
+      "destination": "module.html?module=6#theory-6-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        24
+      ]
+    },
+    {
+      "destination": "module.html?module=6#theory-6-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        24
+      ]
+    },
+    {
+      "destination": "module.html?module=6#theory-6-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        24
+      ]
+    },
+    {
+      "destination": "module.html?module=7#theory-7-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "destination": "module.html?module=7#theory-7-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "destination": "module.html?module=7#theory-7-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        28
+      ]
+    },
+    {
+      "destination": "module.html?module=8#theory-8-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "destination": "module.html?module=8#theory-8-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "destination": "module.html?module=8#theory-8-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        33
+      ]
+    },
+    {
+      "destination": "module.html?module=9#theory-9-1",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        37
+      ]
+    },
+    {
+      "destination": "module.html?module=9#theory-9-2",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        38
+      ]
+    },
+    {
+      "destination": "module.html?module=9#theory-9-3",
+      "purpose": "Named guided-course learning/evidence destination",
+      "audience": "student",
+      "period_numbers": [
+        39
+      ]
+    }
+  ],
+  "teacher_to_confirm": [
+    {
+      "id": "TTC-01",
+      "item": "Confirm the actual class timetable and period placement.",
+      "owner": "Course teacher",
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "due_before": "Program approval"
+    },
+    {
+      "id": "TTC-02",
+      "item": "Confirm every practical/fieldwork method, equipment, quantities, WHS controls, supervision and checkpoint from current local authority.",
+      "owner": "Course teacher and school WHS authority",
+      "affected_periods": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        12,
+        13,
+        14,
+        17,
+        18,
+        21,
+        22,
+        23,
+        26,
+        27,
+        30,
+        31,
+        32,
+        35,
+        36,
+        41,
+        42,
+        43,
+        48,
+        49,
+        54,
+        55
+      ],
+      "due_before": "Each practical block"
+    },
+    {
+      "id": "TTC-03",
+      "item": "Confirm current folio requirements, assessment status, dates, marks, rubric and submission route.",
+      "owner": "Faculty assessment authority",
+      "affected_periods": [
+        2,
+        7,
+        11,
+        16,
+        20,
+        25,
+        29,
+        34,
+        40,
+        47,
+        53
+      ],
+      "due_before": "Assessment or submission advice is issued"
+    },
+    {
+      "id": "TTC-04",
+      "item": "Complete faculty review, adjustments and sign-off before representing the program as approved.",
+      "owner": "Faculty approval authority",
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "due_before": "Publication for approved use"
+    }
+  ],
+  "files": [
+    {
+      "path": "Year-8-Agriculture-55-Period-Teaching-Program-v1.0-Website-Complete-10pt.docx",
+      "purpose": "editable-program",
+      "version": "1.0",
+      "sha256": "422C91AF5EB18BEC951CD5F4ED46E50B59AD89D02E24861408525DA2025521A7"
+    },
+    {
+      "path": "Year-8-Agriculture-55-Period-Teaching-Program-v1.0-Website-Complete-10pt.pdf",
+      "purpose": "rendered-program",
+      "version": "1.0",
+      "sha256": "A88A95724C6A68FF366A325465B45F986B6277E5F3D76FC0A56022167794C582"
+    },
+    {
+      "path": "Year-8-Agriculture-55-Period-Teaching-Program-v1.0-Website-Complete-10pt-alignment.json",
+      "purpose": "alignment-manifest",
+      "version": "1.0",
+      "sha256": "SELF"
+    }
+  ]
+}
