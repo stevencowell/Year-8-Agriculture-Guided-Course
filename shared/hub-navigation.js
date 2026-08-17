@@ -36,7 +36,7 @@
   const items = [
     { label: "Course", href: "index.html", current: isCourseHome },
     { label: "Modules", href: "index.html#pathway", current: path.endsWith("/module.html") },
-    { label: "Busy Work", href: "busy-work/", current: path.includes("/busy-work/") },
+    { label: "Puzzles", href: "busy-work/", current: path.includes("/busy-work/") },
     { label: "My folio", href: "folio.html", current: path.endsWith("/folio.html") },
     { label: "Main Menu", href: HUB_URL, external: true }
   ];
