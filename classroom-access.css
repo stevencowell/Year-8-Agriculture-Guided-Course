@@ -1,0 +1,15 @@
+/* Scoped course-to-Classroom access links. Existing course styling is preserved. */
+.classroom-access{box-sizing:border-box;max-width:1120px;width:calc(100% - 2rem);margin:1.25rem auto;padding:1.25rem 1.5rem;border:1px solid #cbd5e1;border-left:5px solid var(--primary,#215d49);border-radius:12px;background:#f5f8f6;color:#172f29;clear:both}
+.classroom-access *{box-sizing:border-box}
+.classroom-access h2{margin:0 0 .5rem;font-size:1.3rem;line-height:1.3;color:#172f29}
+.classroom-access p{margin:.5rem 0;font-size:1rem;line-height:1.55;color:#334b44;max-width:none}
+.classroom-access .classroom-access__actions{display:flex;flex-wrap:wrap;gap:.6rem;margin:.8rem 0 0;padding:0}
+.classroom-access .classroom-access__actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:100%;padding:.65rem .9rem;border:1px solid #215d49;border-radius:8px;background:#215d49;color:#fff;font-size:1rem;font-weight:700;line-height:1.35;text-decoration:none;text-align:center;overflow-wrap:anywhere}
+.classroom-access .classroom-access__actions a:last-child{background:#fff;color:#215d49}
+.classroom-access a:hover{text-decoration:underline}
+.classroom-access a:focus-visible{outline:3px solid #b65214;outline-offset:4px}
+.classroom-access .classroom-access__courses{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:.75rem;margin:.8rem 0;padding:0;list-style:none}
+.classroom-access .classroom-access__courses li{padding:.8rem;border:1px solid #cbd5e1;border-radius:8px;background:#fff;min-width:0}
+.classroom-access .classroom-access__courses a{color:#174f3f;font-weight:750;line-height:1.5;display:inline-block;padding:.3rem 0;min-height:44px}
+.classroom-access .classroom-access__courses span{display:block;font-size:.95rem;line-height:1.45;color:#40564f}
+@media(max-width:600px){.classroom-access{width:calc(100% - 1.25rem);padding:1rem;margin:1rem auto}.classroom-access .classroom-access__actions{display:grid}.classroom-access .classroom-access__actions a{width:100%}}
